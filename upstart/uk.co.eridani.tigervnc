@@ -1,0 +1,8 @@
+description "TigerVNCViewer"
+
+start on uk.co.eridani.tigervnc
+
+script
+	/sbin/initctl emit org.webosinternals.xserver "$@"
+	exec /media/cryptofs/apps/usr/palm/applications/uk.co.eridani.tigervnc/xecutah.sh "$@"
+end script

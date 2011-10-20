@@ -1,0 +1,23 @@
+{
+"title": "TigerVNCViewer",
+"id": "uk.co.eridani.tigervnc",
+"version": "0.2.6",
+"vendor": "Eridani Star System",
+"type": "web",
+"main": "index.html",
+"icon": "icon.png",
+"message": "TigerVNCViewer is used to provide a VNC Client for webOS using the Xecutah/Xserver framework.<br>See http://forums.precentral.net/webos-development/299752-tigervnc-touchpad-3.html#post3169900 for a manual change needed to xecutah for this app to work, hopefully this won't be required for too long.",
+"uiRevision": "2",
+"changeLog": [ 
+{ "version" : "0.2.6",  "log" : [ "Default menu key is now ® if the on-screen keyboard is used, ~ (tilde) if not.  That'll teach me for using someone whose BT keyboard is a third-party one for reference." ] }, 
+{ "version" : "0.2.5",  "log" : [ "Default menu key is now ® if the on-screen keyboard is used, F8 if not." ] }, 
+{ "version" : "0.2.4",  "log" : [ "Added a new options menu item to choose F8, ® or Tab as the menu key, for Bluetooth keyboard users." ] }, 
+{ "version" : "0.2.3",  "log" : [ "Added a toggle so mouse-key swap lasts for one click or until switched off." ] }, 
+{ "version" : "0.2.2",  "log" : [ "Implemented mouse key swapping so right and middle clicking is possible. Auto-restart vncviewer if the connection collapses." ] }, 
+{ "version" : "0.2.1",  "log" : [ "Added a short delay to the start-up to allow the Xserver card to start up." ] }, 
+{ "version" : "0.2.0",  "log" : [ "Updated to work with the multi-card Xecutah/Xserver." ] },
+{ "version" : "0.1.2",  "log" : [ "Replaced twm with dwm. All windows run maximised and there are no title bars to reduce our already limited screen space." ] },
+{ "version" : "0.1.1",  "log" : [ "Rebuilt binaries with better CPU tuning." ] },
+{ "version" : "0.1.0",  "log" : [ "First forum release (incorrectly versioned 1.1.0)." ] } ],
+"noWindow": true
+}
